@@ -48,7 +48,7 @@ const Header: React.FC = () => {
 
   const onClickLogout = () => {
     if (window.confirm("Are you sure you want to log out of your account?")) {
-      handleActive();
+      setActive(false);
       dispatch(logout());
       window.localStorage.removeItem("token");
       navigate("/");

@@ -16,7 +16,7 @@ import MyVacancies from "./pages/MyVacancies.tsx";
 import MyFavorities from "./pages/MyFavorities.tsx";
 import Companies from "./pages/Companies.tsx";
 import CompanyDetail from "./pages/CompanyDetail.tsx";
-import Layout from "./components/Layout.tsx";
+import Layout from "./Layout/Layout.tsx";
 import { Toaster } from "react-hot-toast";
 
 const App: React.FC = () => {
