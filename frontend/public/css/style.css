@@ -7175,6 +7175,11 @@ h6 {
   }
 }
 
+.suspence_loading {
+  width: 100%;
+  height: 100vh;
+}
+
 /* line 1315, ../../Arafath/CL/December/235. Job board/HTML/scss/_blog.scss */
 .comments-area {
   background: transparent;
